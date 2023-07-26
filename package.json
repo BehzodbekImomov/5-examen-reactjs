@@ -26,8 +26,7 @@
     "react-slick": "^0.29.0",
     "react-toastify": "^9.1.3",
     "sass": "^1.64.0",
-    "slick-carousel": "^1.8.1",
-    "./components/layout/FrontLayout": "^*"
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
