@@ -54,7 +54,7 @@ const LoginP = () => {
       ) : (
         <Fragment>
           <h2>Login</h2>
-          <form className="needs-validation"  onSubmit={submit}  >
+          <form className="needs-validation" onSubmit={submit}>
             <div className="input-group   m-auto mb-5 mt-5">
               <input
                 onChange={handleChange}
@@ -85,11 +85,11 @@ const LoginP = () => {
                 required
               />
 
-<div className="valid-feedback">Looks good!</div>
+              <div className="valid-feedback">Looks good!</div>
 
-<div className="invalid-feedback ">
-  Please provide a valid city.
-</div>
+              <div className="invalid-feedback ">
+                Please provide a valid city.
+              </div>
             </div>
 
             <button className=" btn btn-warning form-control" type="submit">

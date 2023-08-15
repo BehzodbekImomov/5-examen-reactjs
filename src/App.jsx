@@ -2,7 +2,7 @@ import { Fragment, useContext } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { AuthContex } from "./context/AuthContex";
 import UserLayout from "../src/components/Layout/UserLayout"
-import AdminLayout from "./components/layout/AdminLayout";
+import AdminLayout from "./components/Layout/AdminLayout";
 
 import HomeP from "./pages/User/HomeP";
 import Aboutp from "./pages/User/Aboutp";
